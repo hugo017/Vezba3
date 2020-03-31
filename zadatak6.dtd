@@ -1,0 +1,15 @@
+<!DOCTYPE FAKULTET [
+<!ELEMENT fakultet (student)>
+<!ELEMENT student (osoba,upisi)>
+<!ATTLIST student status (studira|diplomirao) #REQUIRED>
+<!ATTLIST student index ID #REQUIRED>
+<!ELEMENT upisi (semestar)+>
+<!ATTLIST upisi broj (PCDATA) #REQUIRED>
+<!ATTLIST upisi godina (PCDATA) #REQUIRED>
+<!ATTLIST upisi vrsta (budzet|saf) #REQUIRED>
+<!ELEMENT osoba (ime,prezime,mestoRodjenja,datumRodjenja)>
+<!ELEMENT ime (PCDATA)>
+<!ELEMENT prezime (PCDATA)>
+<!ELEMENT mestoRodjenja (PCDATA)>
+<!ELEMENT datumRodjenja (PCDATA)>
+]>

@@ -1,0 +1,18 @@
+<mojiPodaci>
+	<punoIme>
+		<ime>Nikola</ime>
+		<prezime>Ristić</prezime>
+	</punoIme>
+	<datumRođena>
+		<dan>03</dan>
+		<mesec>05</mesec>
+		<godina>1993</godina>
+	</datumRođena>
+	<adresa>
+		<ulica>Kritska 40</ulica>
+		<naselje>Zvezdara</naselje>
+		<grad>Beograd</grad>
+		<država>Srbija</država>
+		<ptt>11050</ptt>
+	</adresa>
+</mojiPodaci>

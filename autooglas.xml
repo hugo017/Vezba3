@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AutoOglas SYSTEM "autooglas.dtd">
+<!ENTITY mojiPodaci SYSTEM "zadatak1.xml">
+<AutoOglas>
+	<Automobil>
+		<Proizvodjac>Alfa Romeo</Proizvodjac>
+		<Model tip = "Restyling">147</Model>
+		<Godiste>2006</Godiste>
+		<Farba tip = "Metalik">Crna</Farba>
+		<Zapreminamotora jedinicaMere = "ccm">1598</Zapreminamotora>
+		<Transmisija tip = "Manuelni">5 brzina</Transmisija>
+		<Gorivo tng = "Ne">Benzin</Gorivo>
+		<Cena valuta = "Evro">3100</Cena>
+	</Automobil>
+	<Prodavac>&mojiPodaci;</Prodavac> <!– pokušaj povlačenja mojih podataka iz zadatka 1 -->
+</AutoOglas>

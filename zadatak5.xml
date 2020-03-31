@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NEWSPAPER SYSTEM "zadatak5.dtd">
+<NEWSPAPER>
+	<ARTICLE AUTHOR = "Nikola Ristic" DATE = "31.03.2020.">
+		<HEADLINE>Korona virus</HEADLINE>
+		<BYLINE>Tanjug, 30.03.2020.</BYLINE>
+		<LEAD>Korona virus zavladao svetom...</LEAD>
+		<BODY></BODY>
+		<NOTES></NOTES>
+	</ARTICLE>
+</NEWSPAPER>

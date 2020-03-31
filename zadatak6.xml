@@ -1,0 +1,19 @@
+<fakultet>
+	<student>
+		<osoba>
+			<ime>Nikola</ime>
+			<prezime>Ristic</prezime>
+			<mestoRodjenja>Vranje</mestoRodjenja>
+			<datumRodjenja>03.05.1993.</datumRodjenja>
+		</osoba>
+		<upisi>
+			<semestar>
+				<broj>6</broj>
+				<godina>2019</godina>
+				<vrsta>saf</vrsta>
+			</semestar>
+		</upisi>
+		<status>studira</status>
+		<indeks>NRT-92/14</indeks>
+	</student>
+</fakultet>

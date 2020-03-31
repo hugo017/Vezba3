@@ -1,0 +1,12 @@
+<!DOCTYPE AutoOglas [
+<!ELEMENT AutoOglas (Automobil)*>
+<!ELEMENT Automobil (Proizvodjac,Model,Godiste,Farba,Zapreminamotora,Transmisija,Gorivo,Cena)>
+<!ELEMENT Proizvodjac (#PCDATA)>
+<!ATTLIST Model CDATA #IMPLIED>
+<!ELEMENT Godiste (#PCDATA)
+<!ATTLIST Farba (Akril|Metalik) CDATA #REQIRED>
+<!ELEMENT Zapreminamotora (ccm|L) (#PCDATA)
+<!ATTLIST Transmisija (Manuelni|Auto) CDATA #REQIRED>
+<!ATTLIST Gorivo tng (da|ne) CDATA #IMPLIED>
+<!ATTLIST Cena valuta (Din|Evro) CDATA #REQIRED>  
+]>
